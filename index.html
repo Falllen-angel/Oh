@@ -33,11 +33,19 @@
                     } 
         #main .nav li.on a{color:#000;}
 
-        #main h2{ float: left; width: 100%; margin:300px 0 0 0; 
+        /* #main h2{ float: left; width: fit-content; margin:300px 0 0 0; 
                   font-size:50px; text-align: right;
                   padding-right:100px; box-sizing: border-box;}
         #main p{float:left; margin:20px 100px 0 0; 
-                font-size:16px; color: #D6CBC2;}
+                font-size:16px; color: #D6CBC2;} */
+        #intro{
+            float: left;
+        }
+        #intro h2{ float: left; width: fit-content; margin:300px 0 0 0; 
+                  font-size:50px; text-align: right;
+                  padding-right:100px; box-sizing: border-box;}
+        #intro #main p{float:left; margin:20px 100px 0 0; 
+            font-size:16px; color: #D6CBC2;}
 
         #q_mn{
             position: absolute; right:20px; top: 300px; z-index: 9999;
@@ -121,7 +129,7 @@
         <div id="main">
             <div class="in_main">
               <div class="header">
-                 <h1 class="logo">KSJ</h1>
+                 <h1 class="logo">OSM</h1>
                  <ul class="nav">
                      <li><a href="#">Home</a></li>
                      <li><a href="#">Profile</a></li>
@@ -131,10 +139,12 @@
                   </ul>
                 
                 </div> 
+                <div id="intro">
                     <h2>
                         Hello, I'm OH Sung Min
                     </h2>
                     <p>UX Designer & Front End Developer</p>   
+                </div>
             </div>
         </div>
         <!-- 소개 -->
